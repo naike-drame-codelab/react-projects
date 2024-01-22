@@ -1,5 +1,7 @@
 import Counter from "./components/Counter";
+import MealAPI from "./components/MealAPI";
 import Todo from "./components/Todo"
+import Calculator from "./components/Calculator";
 
 function App() {
   return (
@@ -7,6 +9,10 @@ function App() {
       <Counter />
       <hr />
       <Todo />
+      <hr />
+      <Calculator />
+      <hr />
+      <MealAPI />
       <hr />
     </>
   )

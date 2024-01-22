@@ -16,8 +16,9 @@ const Counter = () => {
     }
 
     return(<>
+        <h1 className="m-5 scroll-m-20 text-lg font-bold tracking-tight lg:text-3xl">Counter</h1>
         <div className="flex text-center" >
-            <h1 className="m-5 scroll-m-20 text-5xl font-extrabold tracking-tight lg:text-5xl">{count}</h1>
+            <h2 className="m-5 scroll-m-20 text-5xl font-extrabold tracking-tight lg:text-5xl">{count}</h2>
         </div>
 
         <section>
