@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+
 .calc-container{
     display: flex;
     align-items: center;
@@ -51,3 +53,8 @@
     background: rgb(255, 163, 26);
 }
 
+.toggle-container {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}

@@ -13,8 +13,8 @@ function App() {
       <hr />
       <Calculator />
       <hr />
-      <ToggleColor />
-      <hr />
+      {/* <ToggleColor />
+      <hr /> */}
       <MealAPI />
       <hr />
     </>
