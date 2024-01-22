@@ -18,7 +18,7 @@ const MealAPI = () => {
 
     const itemsList = items.map(({strMeal, strMealThumb, idMeal})=> {
         return(
-            <section key={idMeal}  className=" w-1/2 mx-auto flex max-h-100px flex-wrap justify-around border-2 border-slate-800 m-5 p-5 text-slate-800">
+            <section key={idMeal}  className="grid grid-cols-2 gap-4 border-2 border-slate-800 m-5 p-5 text-slate-800">
                 <img src={strMealThumb} className="object-cover max-h-40"/>
                 <section className=" w-1/2">
                     <p>{strMeal}</p>
@@ -30,7 +30,7 @@ const MealAPI = () => {
 
     return <>
         <h1 className="m-5 scroll-m-20 text-lg font-bold tracking-tight lg:text-3xl">Meal API</h1>
-        <div className="border-2 border-slate-800 m-5 p-5 text-slate-800 justify-center">
+        <div className="border-2 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:max-w-4xl mx-auto border-slate-800 m-5 p-5 text-slate-800 justify-center">
             {itemsList}
         </div>
     </>
