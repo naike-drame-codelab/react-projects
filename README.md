@@ -1,5 +1,5 @@
 # React + Tailwind CSS
-THis is a collection of small projects to get the hang on React.js and Tailwindcss
+This is a collection of small projects to get the hang of React.js and Tailwind CSS.
 
 1) Counter
 2) Todo List
